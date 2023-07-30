@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: darkgray;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+nav > h3, nav > h4 {
+    padding: 0;
+}
+nav > h3 {
+    margin-right: auto;
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 22px;
+}
+nav > h4 {
+    color: #deebf8;
+    font-weight: 600;
+}
+
+nav > img {
+    height: 30px;
+}
+.main {
+    align-items: center;
+    
+}
+
+.main--header {
+    margin-left: 40%;
+    color: white;
+}
+.main--list {
+    margin-left: 40%;
+    color: #deebf8;
+    margin-top: 46px;
+    margin-width : 400px
+}
+
+.main--list > li {
+    line-height: 19px;
+    padding-block:10px ;
+}
+
+.main--list > li::marker {
+    font-size: 1.4rem;
+    color: #61dafb;    
+}
+
